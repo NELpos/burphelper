@@ -2,8 +2,9 @@
 
 ##1. Intro
 
-Jython을 기반으로 한 Burp Suite 플러그인입니다. 
-개발 동기는 윈도우 10에서 Burp Suite 사용시 Cooxie 프로그램으로 IE에서 프록시 설정이 적용이 되지 않는 경우가 많아 Burp Suite 플러그인으로 개발하였습니다.
+- Jython을 기반으로 한 Burp Suite 플러그인입니다. 
+- 윈도우 환경에서 사용 가능합니다.
+- Window 10에서 Cooxie 대용으로 사용이 가능합니다.
 
 ##2. Patch Note
 
