@@ -30,14 +30,14 @@
 
 ##3. Installation
 ####Step 1. Git에서 파일 다운로드
-① https://github.com/NELpos/burphelper에 접속<br>
-② jython-standalone-2.7.0.jar 파일과 BurpHelper.py 파일을 다운받습니다
+1. https://github.com/NELpos/burphelper에 접속<br>
+2. jython-standalone-2.7.0.jar 파일과 BurpHelper.py 파일을 다운받습니다
 <img src = http://cfile30.uf.tistory.com/image/221AFC3758A01AC80D78EA width=100%></img>
 
 ####Step 2. Burp Extender Jython 환경 설정
-<br>① Burp Menu → 'Extender' 클릭
-<br>② 'Options' 클릭
-<br>③ 'Python Environment'에서 Jar File에 jython-standalone-2.7.0.jar 파일 등록
+1. Burp Menu → 'Extender' 클릭
+2. 'Options' 클릭
+3.  'Python Environment'에서 Jar File에 jython-standalone-2.7.0.jar 파일 등록
 <br>    (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
 <img src = http://cfile22.uf.tistory.com/image/2710354F58A02B650387F4 width=100%></img>
 
