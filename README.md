@@ -37,7 +37,7 @@
 ####Step 2. Burp Extender Jython 환경 설정
 1. Burp Menu → 'Extender' 클릭
 2. 'Options' 클릭
-3.  'Python Environment'에서 Jar File에 jython-standalone-2.7.0.jar 파일 등록
+3. 'Python Environment'에서 Jar File에 jython-standalone-2.7.0.jar 파일 등록
     (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
 <img src = http://cfile22.uf.tistory.com/image/2710354F58A02B650387F4 width=100%></img>
 
