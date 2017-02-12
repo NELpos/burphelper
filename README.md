@@ -61,13 +61,13 @@
    * Proxy Server Setting에서 Add/Edit/Remove 버튼으로 프록시 서버 IP 등록/편집/삭제가 가능합니다.
    (등록한 설정은 파일로 저장되며 종료후 재시작시에도 설정을 불러옵니다.)
 * 사용법
->1. Proxy Sever Setting 메뉴에서 Add 버튼을 누릅니다.
->2. 프록시 서버 정보를 입력 후 ADD 버튼을 누릅니다. (이때 NAME은 반드시 영어로 입력해야 합니다.)
-<img src = http://cfile30.uf.tistory.com/image/273FFE4A58A02FBB046188 width=100%></img>
+   1. Proxy Sever Setting 메뉴에서 Add 버튼을 누릅니다.
+   2. 프록시 서버 정보를 입력 후 ADD 버튼을 누릅니다. (이때 NAME은 반드시 영어로 입력해야 합니다.)
+   <img src = http://cfile30.uf.tistory.com/image/273FFE4A58A02FBB046188 width=100%></img>
 
-<br>③ 추가가 완료되면 Enabled 체크박스를 클릭하세요.
-<br>④ 'Proxy is enabled' 알림창이 뜨면 Proxy 설정이 활성화 되었습니다. 체크 박스를 해제하면 Proxy 설정이 비활성화 됩니다.
-<img src = http://cfile26.uf.tistory.com/image/2728084B58A030F10AF5AE width=100%></img>
+   3. 추가가 완료되면 Enabled 체크박스를 클릭하세요.
+   4. 'Proxy is enabled' 알림창이 뜨면 Proxy 설정이 활성화 되었습니다. 체크 박스를 해제하면 Proxy 설정이 비활성화 됩니다.
+   <img src = http://cfile26.uf.tistory.com/image/2728084B58A030F10AF5AE width=100%></img>
 
 ####2) Check Current IP 기능
 * 설명
