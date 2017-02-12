@@ -9,15 +9,18 @@
 
 ##2. Patch Note
 
+### ver 1.22
+- 일부 버그 수정
+
 ### ver 1.2
 * Check Current IP
-- 현재 진단하고 있는 PC의 공인/사설 IP 확인 기능 추가
+ > 현재 진단하고 있는 PC의 공인/사설 IP 확인 기능 추가
 
 ### ver 1.1
 * Target Site List
-- 진단 대상 사이트의 주소, ID, 패스워드를 등록 및 클립보드 복사 기능 추가
-- [주의] 등록한 정보(사이트, ID, PW)를 C:\burphelper\sitelist 경로에 저장합니다. 
-  (종료 후 시작에도 설정값 불러오기 위함)
+ > 진단 대상 사이트의 주소, ID, 패스워드를 등록 및 클립보드 복사 기능 추가
+ > [주의] 등록한 정보(사이트, ID, PW)를 C:\burphelper\sitelist 경로에 저장합니다. 
+   (종료 후 시작에도 설정값 불러오기 위함)
 
 ### ver 1.0
 * Windows Internet Explorer 프록시 설정 기능 제공
@@ -27,7 +30,7 @@
   (종료 후 시작에도 설정값 불러오기 위함)
 
 ##3. Installation
-1. Git 에서 jython-standalone-2.7.0.jar 파일을 다운 받습니다.
+1. Git Repository 에서 jython-standalone-2.7.0.jar 파일을 다운 받습니다.
 ![Alt text](http://cfile30.uf.tistory.com/image/221AFC3758A01AC80D78EA)
 
 2. Burp 실행 → 상단 메뉴 [Extender] → [Options]를 누릅니다.
