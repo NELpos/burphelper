@@ -38,14 +38,14 @@
 1. Burp Menu → 'Extender' 클릭
 2. 'Options' 클릭
 3.  'Python Environment'에서 Jar File에 jython-standalone-2.7.0.jar 파일 등록
-<br>    (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
+    (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
 <img src = http://cfile22.uf.tistory.com/image/2710354F58A02B650387F4 width=100%></img>
 
 ####Step 3. BurpHelper 플러그인 추가
 1. Burp Menu → 'Extender' → 'Extentions' 클릭
 2. Burp Extentions에서 'Add' 추가
 3. Extentions Details에서 type을 파이썬을 선택하고 다운받은 BurpHelper.py 파일 추가
-<br>   (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
+   (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
 <img src = http://cfile4.uf.tistory.com/image/26750A4C58A02D0D09DD6F width=100%></img>
 
 4. 정상적으로 플러그인이 로딩되는 경우 아래 그림과 같은 Output 탭에 메시지를 확인할 수 있습니다. 로드상 오류가 있으면 Errors 탭에 에러가 표기됩니다
