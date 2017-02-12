@@ -13,17 +13,17 @@
 * 일부 버그 수정
 
 ### ver 1.2
-* Check Current IP
+* Check Current IP 기능 추가
  * 현재 진단하고 있는 PC의 공인/사설 IP 확인 기능 추가
 
 ### ver 1.1
-* Target Site List
+* Target Site List 기능 추가
  * 진단 대상 사이트의 주소, ID, 패스워드를 등록 및 클립보드 복사 기능 추가
  * [주의] 등록한 정보(사이트, ID, PW)를 C:\burphelper\sitelist 경로에 저장합니다. 
    (종료 후 시작에도 설정값 불러오기 위함)
 
 ### ver 1.0
-* Windows Internet Explorer 프록시 설정 기능 제공
+* Windows Internet Explorer 프록시 On/Off 기능
  * BurpHelper 플러그인의 IEProxy Settings를 통해 프록시로 사용할 아이피를 등록/변경/삭제가 가능합니다.
  * 체크박스 on/off를 통해 쉽게 프록시 설정이 가능합니다.
  * 프록시 설정을 저장하기 위해 C:\burphelper\proxylist 경로에 저장합니다.
@@ -52,7 +52,15 @@
 7. 정상적으로 등록이 완료가 되면 상단 메뉴에 BurpHelper 플러그인 메뉴가 등록됩니다.
 ![Alt text](http://cfile6.uf.tistory.com/image/272964345731D66C297343)
 
-##4. TroubleShooting
+##4. Usage
+###1) Windows Internet Explorer 프록시 On/Off 기능
+
+###2) Check Current IP 기능
+
+###3) Target Site List 기능 추가
+
+
+##5. TroubleShooting
 1.  Jython PY-String Non-Byte Error
   원인 :  윈도우 사용자 이름이 한글인 경우 경우에 발생<br>
   (ex. c:\users\홍길동\Desktop\jython-standalone.jar)
@@ -63,5 +71,5 @@
    원인 > Name을 한글로 입력하는 경우 설정파일 저장 및 불러오기 불가
    해결 > Name을 영어로 입력
 
-##5. Special Thanks
+##6. Special Thanks
 thanks to darkhi
