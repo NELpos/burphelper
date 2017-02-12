@@ -28,7 +28,7 @@
 
 ##3. Installation
 1. Git 에서 jython-standalone-2.7.0.jar 파일을 다운 받습니다.
-![Alt text](http://cfile10.uf.tistory.com/image/2170343D58A013DE090029)
+![Alt text](http://cfile30.uf.tistory.com/image/221AFC3758A01AC80D78EA)
 
 2. Burp 실행 → 상단 메뉴 [Extender] → [Options]를 누릅니다.
 ![Alt text](http://cfile6.uf.tistory.com/image/215015455731D2D81607D8)
