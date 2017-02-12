@@ -1,21 +1,30 @@
 # BurpHelper
 
 ##1. Intro
--------------
+
 Jython을 기반으로 한 Burp Suite 플러그인입니다. 
 개발 동기는 윈도우 10에서 Burp Suite 사용시 Cooxie 프로그램으로 IE에서 프록시 설정이 적용이 되지 않는 경우가 많아 Burp Suite 플러그인으로 개발하였습니다.
 
 ##2. Patch Note
--------------
 
-### ver 1.0
-* Internet Explorer 프록시 설정 기능 제공
-- BurpHelper 플러그인의 IEProxy Settings를 통해 프록시로 사용할 아이피를 등록/변경/삭제가 가능합니다.
-- Enabled 체크박스를 통해 프록시 설정을 on/off 할 수 있습니다.
-- 프록시 설정을 저장하기 위해 C:\BurpHelper\burphelpertmp.txt 파일이 생성됩니다. 
+### ver 1.2
+* Check Current IP
+- 현재 진단하고 있는 PC의 공인/사설 IP 확인 기능 추가
+
+### ver 1.1
+* Target Site List
+- 진단 대상 사이트의 주소, ID, 패스워드를 등록 및 클립보드 복사 기능 추가
+- [주의] 등록한 정보(사이트, ID, PW)를 C:\burphelper\sitelist 경로에 저장합니다. 
   (종료 후 시작에도 설정값 불러오기 위함)
 
+### ver 1.0
+* Windows Internet Explorer 프록시 설정 기능 제공
+- BurpHelper 플러그인의 IEProxy Settings를 통해 프록시로 사용할 아이피를 등록/변경/삭제가 가능합니다.
+- 체크박스 on/off를 통해 쉽게 프록시 설정이 가능합니다.
+- 프록시 설정을 저장하기 위해 C:\burphelper\proxylist 경로에 저장합니다.
+  (종료 후 시작에도 설정값 불러오기 위함)
 
+##3. Installation
 3. Burp Extention Installation
 -------------
 
