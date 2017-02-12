@@ -48,7 +48,3 @@
 
 7. 정상적으로 등록이 완료가 되면 상단 메뉴에 BurpHelper 플러그인 메뉴가 등록됩니다.
 ![Alt text](http://cfile6.uf.tistory.com/image/272964345731D66C297343)
-
-
-
-
