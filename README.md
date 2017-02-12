@@ -30,41 +30,40 @@
 
 ##3. Installation
 ####Step 1. Git에서 파일 다운로드
-① https://github.com/NELpos/burphelper에 접속
-② jython-standalone-2.7.0.jar 파일과 BurpHelper.py 파일을 다운받습니다
-
-<img src = http://cfile30.uf.tistory.com/image/221AFC3758A01AC80D78EA width=100%></img>
+<br>① https://github.com/NELpos/burphelper에 접속<br>
+<br>② jython-standalone-2.7.0.jar 파일과 BurpHelper.py 파일을 다운받습니다
+<br><img src = http://cfile30.uf.tistory.com/image/221AFC3758A01AC80D78EA width=100%></img>
 
 ####Step 2. Burp Extender Jython 환경 설정
-① Burp Menu → 'Extender' 클릭
-② 'Options' 클릭
-③ 'Python Environment'에서 Jar File에 jython-standalone-2.7.0.jar 파일 등록
-    (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
+<br>① Burp Menu → 'Extender' 클릭
+<br>② 'Options' 클릭
+<br>③ 'Python Environment'에서 Jar File에 jython-standalone-2.7.0.jar 파일 등록
+<br>    (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
 
 ####Step 3. BurpHelper 플러그인 추가
-① Burp Menu → 'Extender' → 'Extentions' 클릭
-② Burp Extentions에서 'Add' 추가
-③ Extentions Details에서 type을 파이썬을 선택하고 다운받은 BurpHelper.py 파일 추가
-   (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
+<br>① Burp Menu → 'Extender' → 'Extentions' 클릭
+<br>② Burp Extentions에서 'Add' 추가
+<br>③ Extentions Details에서 type을 파이썬을 선택하고 다운받은 BurpHelper.py 파일 추가
+<br>   (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
 
 </p>
 ##4. Usage
 ####1) Windows Internet Explorer 프록시 On/Off 기능
 * 설명
-   *Proxy Server Setting에서 Add/Edit/Remove 버튼으로 프록시 서버 IP 등록/편집/삭제가 가능합니다.
+   * Proxy Server Setting에서 Add/Edit/Remove 버튼으로 프록시 서버 IP 등록/편집/삭제가 가능합니다.
    (등록한 설정은 파일로 저장되며 종료후 재시작시에도 설정을 불러옵니다.)
 
-*사용법
-① Proxy Sever Setting 메뉴에서 Add 버튼을 누릅니다.
-② 프록시 서버 정보를 입력 후 ADD 버튼을 누릅니다. (이때 NAME은 반드시 영어로 입력해야 합니다.)
+* 사용법
+<br>① Proxy Sever Setting 메뉴에서 Add 버튼을 누릅니다.
+<br>② 프록시 서버 정보를 입력 후 ADD 버튼을 누릅니다. (이때 NAME은 반드시 영어로 입력해야 합니다.)
 
-③ 추가가 완료되면 Enabled 체크박스를 클릭하세요.
-④ 'Proxy is enabled' 알림창이 뜨면 Proxy 설정이 활성화 되었습니다. 체크 박스를 해제하면 Proxy 설정이 비활성화 됩니다.
+<br>③ 추가가 완료되면 Enabled 체크박스를 클릭하세요.
+<br>④ 'Proxy is enabled' 알림창이 뜨면 Proxy 설정이 활성화 되었습니다. 체크 박스를 해제하면 Proxy 설정이 비활성화 됩니다.
 
 ####2) Check Current IP 기능
 * 설명
-   *Target Site List에서 Add/Edit/Remove 버튼으로 진단 대상 사이트 URL/ID/PW 정보를 입력할 수 있습니다.
-   *진단 대상 사이트 및 계정이 여러개일때 ID/PW를 저장해서 손쉽게 사이트를 불러오고 저장/복사를 위한 기능입니다.
+   * Target Site List에서 Add/Edit/Remove 버튼으로 진단 대상 사이트 URL/ID/PW 정보를 입력할 수 있습니다.
+   * 진단 대상 사이트 및 계정이 여러개일때 ID/PW를 저장해서 손쉽게 사이트를 불러오고 저장/복사를 위한 기능입니다.
    (등록한 설정은 파일로 저장되며 종료후 재시작시에도 설정을 불러옵니다.)
 
 *사용법
