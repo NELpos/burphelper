@@ -57,11 +57,11 @@
 </p>
 ##4. Usage
 ####1) Windows Internet Explorer 프록시 On/Off 기능
-<code>
+"""
 * 설명
    * Proxy Server Setting에서 Add/Edit/Remove 버튼으로 프록시 서버 IP 등록/편집/삭제가 가능합니다.
    (등록한 설정은 파일로 저장되며 종료후 재시작시에도 설정을 불러옵니다.)
-</code>
+"""
 * 사용법
 ① Proxy Sever Setting 메뉴에서 Add 버튼을 누릅니다.
 <br>② 프록시 서버 정보를 입력 후 ADD 버튼을 누릅니다. (이때 NAME은 반드시 영어로 입력해야 합니다.)
