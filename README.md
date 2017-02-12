@@ -42,25 +42,26 @@
 <img src = http://cfile22.uf.tistory.com/image/2710354F58A02B650387F4 width=100%></img>
 
 ####Step 3. BurpHelper 플러그인 추가
-<br>① Burp Menu → 'Extender' → 'Extentions' 클릭
-<br>② Burp Extentions에서 'Add' 추가
-<br>③ Extentions Details에서 type을 파이썬을 선택하고 다운받은 BurpHelper.py 파일 추가
+1. Burp Menu → 'Extender' → 'Extentions' 클릭
+2. Burp Extentions에서 'Add' 추가
+3. Extentions Details에서 type을 파이썬을 선택하고 다운받은 BurpHelper.py 파일 추가
 <br>   (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
 <img src = http://cfile4.uf.tistory.com/image/26750A4C58A02D0D09DD6F width=100%></img>
 
-④ 정상적으로 플러그인이 로딩되는 경우 아래 그림과 같은 Output 탭에 메시지를 확인할 수 있습니다. 로드상 오류가 있으면 Errors 탭에 에러가 표기됩니다
+4. 정상적으로 플러그인이 로딩되는 경우 아래 그림과 같은 Output 탭에 메시지를 확인할 수 있습니다. 로드상 오류가 있으면 Errors 탭에 에러가 표기됩니다
 <img src = http://cfile29.uf.tistory.com/image/260AB73758A017EE356C33 width=100%></img>
 
-⑤ 정상적으로 등록이 완료가 되면 상단 메뉴에 BurpHelper 플러그인 메뉴가 등록됩니다.
+5. 정상적으로 등록이 완료가 되면 상단 메뉴에 BurpHelper 플러그인 메뉴가 등록됩니다.
 <img src = http://cfile4.uf.tistory.com/image/2540EE4758A02E58271D84 width=100%></img>
 
 </p>
 ##4. Usage
 ####1) Windows Internet Explorer 프록시 On/Off 기능
+<code>
 * 설명
    * Proxy Server Setting에서 Add/Edit/Remove 버튼으로 프록시 서버 IP 등록/편집/삭제가 가능합니다.
    (등록한 설정은 파일로 저장되며 종료후 재시작시에도 설정을 불러옵니다.)
-
+</code>
 * 사용법
 ① Proxy Sever Setting 메뉴에서 Add 버튼을 누릅니다.
 <br>② 프록시 서버 정보를 입력 후 ADD 버튼을 누릅니다. (이때 NAME은 반드시 영어로 입력해야 합니다.)
