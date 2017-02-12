@@ -10,7 +10,7 @@
 ##2. Patch Note
 
 ### ver 1.22
-- 일부 버그 수정
+* 일부 버그 수정
 
 ### ver 1.2
 * Check Current IP
@@ -24,10 +24,10 @@
 
 ### ver 1.0
 * Windows Internet Explorer 프록시 설정 기능 제공
-- BurpHelper 플러그인의 IEProxy Settings를 통해 프록시로 사용할 아이피를 등록/변경/삭제가 가능합니다.
-- 체크박스 on/off를 통해 쉽게 프록시 설정이 가능합니다.
-- 프록시 설정을 저장하기 위해 C:\burphelper\proxylist 경로에 저장합니다.
-  (종료 후 시작에도 설정값 불러오기 위함)
+ * BurpHelper 플러그인의 IEProxy Settings를 통해 프록시로 사용할 아이피를 등록/변경/삭제가 가능합니다.
+ * 체크박스 on/off를 통해 쉽게 프록시 설정이 가능합니다.
+ * 프록시 설정을 저장하기 위해 C:\burphelper\proxylist 경로에 저장합니다.
+   (종료 후 시작에도 설정값 불러오기 위함)
 
 ##3. Installation
 1. Git Repository 에서 jython-standalone-2.7.0.jar 파일을 다운 받습니다.
