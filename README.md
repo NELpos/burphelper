@@ -53,11 +53,11 @@
 ![Alt text](http://cfile6.uf.tistory.com/image/272964345731D66C297343)
 
 ##4. Usage
-###1) Windows Internet Explorer 프록시 On/Off 기능
+####1) Windows Internet Explorer 프록시 On/Off 기능
 
-###2) Check Current IP 기능
+####2) Check Current IP 기능
 
-###3) Target Site List 기능 추가
+####3) Target Site List 기능 추가
 
 
 ##5. TroubleShooting
