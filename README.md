@@ -67,27 +67,27 @@
 
 ####2) Check Current IP 기능
 * 설명
-	* Target Site List에서 Add/Edit/Remove 버튼으로 진단 대상 사이트 URL/ID/PW 정보를 입력할 수 있습니다.
-  	* 진단 대상 사이트 및 계정이 여러개일때 ID/PW를 저장해서 손쉽게 사이트를 불러오고 저장/복사를 위한 기능입니다.
+  * Target Site List에서 Add/Edit/Remove 버튼으로 진단 대상 사이트 URL/ID/PW 정보를 입력할 수 있습니다.
+  * 진단 대상 사이트 및 계정이 여러개일때 ID/PW를 저장해서 손쉽게 사이트를 불러오고 저장/복사를 위한 기능입니다.
 	(등록한 설정은 파일로 저장되며 종료후 재시작시에도 설정을 불러옵니다.)
 
 * 사용법
-	1. Target Site List 메뉴에서 Add 버튼을 누릅니다.
-	2. 사이트 URL/권한 유형/ID/PW/Comment를 입력 후 ADD로 추가합니다. (Comment는 반드시 영어로 입력해야 합니다.)
-	<img src = http://cfile28.uf.tistory.com/image/2470724A58A032CF04A0FF width=100%></img>
-	3. 등록 후에 Open URL 버튼을 클릭하면 사이트를 열 수 있습니다.
-	<img src = http://cfile9.uf.tistory.com/image/265DA74E58A033F81D2566 width=100%></img>
-	4. ID Copy/PW Copy 버튼을 클릭후 로그인 폼에 붙여넣기 하면 손쉽게 클릭만으로 붙여넣기가 가능합니다.
-	<img src = http://cfile2.uf.tistory.com/image/274F364B58A034B82591BE width=100%></img>
+  1. Target Site List 메뉴에서 Add 버튼을 누릅니다.
+  2. 사이트 URL/권한 유형/ID/PW/Comment를 입력 후 ADD로 추가합니다. (Comment는 반드시 영어로 입력해야 합니다.)
+  <img src = http://cfile28.uf.tistory.com/image/2470724A58A032CF04A0FF width=100%></img>
+  3. 등록 후에 Open URL 버튼을 클릭하면 사이트를 열 수 있습니다.
+  <img src = http://cfile9.uf.tistory.com/image/265DA74E58A033F81D2566 width=100%></img>
+  4. ID Copy/PW Copy 버튼을 클릭후 로그인 폼에 붙여넣기 하면 손쉽게 클릭만으로 붙여넣기가 가능합니다.
+  <img src = http://cfile2.uf.tistory.com/image/274F364B58A034B82591BE width=100%></img>
 
 ####3) Target Site List 기능 추가
 * 설명
    *현재 진단하는 PC의 공인 IP/사설 IP를 확인해줍니다.
 * 사용법
-	1. Check Current IP 메뉴에서 'Check IP' 버튼을 누릅니다.
-	<img src = http://cfile4.uf.tistory.com/image/2601614958A0352A331BE1 width=100%></img>
-	2. 공인 IP / 사설 IP 확인이 가능합니다.
-	<img src = http://cfile5.uf.tistory.com/image/2567804E58A03574186CC9 width=100%></img>
+  1. Check Current IP 메뉴에서 'Check IP' 버튼을 누릅니다.
+  <img src = http://cfile4.uf.tistory.com/image/2601614958A0352A331BE1 width=100%></img>
+  2. 공인 IP / 사설 IP 확인이 가능합니다.
+  <img src = http://cfile5.uf.tistory.com/image/2567804E58A03574186CC9 width=100%></img>
 
 ##5. TroubleShooting
 1.  Jython PY-String Non-Byte Error
