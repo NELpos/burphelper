@@ -29,41 +29,60 @@
    (종료 후 시작에도 설정값 불러오기 위함)
 
 ##3. Installation
-<p>1. Git Repository 에서 jython-standalone-2.7.0.jar 파일을 다운 받습니다.
+####Step 1. Git에서 파일 다운로드
+① https://github.com/NELpos/burphelper에 접속
+② jython-standalone-2.7.0.jar 파일과 BurpHelper.py 파일을 다운받습니다
+
 <img src = http://cfile30.uf.tistory.com/image/221AFC3758A01AC80D78EA width=100%></img>
-</p>
-<p>
-2. Burp 실행 → 상단 메뉴 [Extender] → [Options]를 누릅니다.
-<img src = http://cfile6.uf.tistory.com/image/215015455731D2D81607D8 width=100%></img>
-</p>
-<p>
-3. [Python Environment]에서 앞에서 다운받은 jython standalone jar 파일을 찾아서 등록합니다.
-<br>(jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
-<img src = http://cfile1.uf.tistory.com/image/2659DC395731D37F0E3FDB width=100%></img>
-</p>
-<p>
-4. Burp의 [Extender]-[Extensions]-[Burp Extensions]에서 Add 버튼을 누릅니다.
-<img src = http://cfile27.uf.tistory.com/image/233CC9395731D46C2F3E7E width=100%></img>
-</p>
-<p>
-5. [Extensions type] > Python 선택, [Extension file(.py)] > BurpHelper 파이썬 파일을 추가시켜 준 후 Next를 클릭
-<img src = http://cfile2.uf.tistory.com/image/251BC43C5731D4F63440E8 width=100%></img>
-</p>
-<p>
-6. 정상적으로 플러그인이 로딩되는 경우 아래 그림과 같은 Output 탭에 메시지를 확인할 수 있습니다. 
-   <br>로드상 오류가 있으면 Errors 탭에 에러가 표기됩니다.
-<img src = http://cfile29.uf.tistory.com/image/260AB73758A017EE356C33 width=100%></img>
-</p>
-<p>
-7. 정상적으로 등록이 완료가 되면 상단 메뉴에 BurpHelper 플러그인 메뉴가 등록됩니다.
-<img src = http://cfile6.uf.tistory.com/image/272964345731D66C297343 width=100%></img>
+
+####Step 2. Burp Extender Jython 환경 설정
+① Burp Menu → 'Extender' 클릭
+② 'Options' 클릭
+③ 'Python Environment'에서 Jar File에 jython-standalone-2.7.0.jar 파일 등록
+    (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
+
+####Step 3. BurpHelper 플러그인 추가
+① Burp Menu → 'Extender' → 'Extentions' 클릭
+② Burp Extentions에서 'Add' 추가
+③ Extentions Details에서 type을 파이썬을 선택하고 다운받은 BurpHelper.py 파일 추가
+   (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
+
 </p>
 ##4. Usage
 ####1) Windows Internet Explorer 프록시 On/Off 기능
+* 설명
+   *Proxy Server Setting에서 Add/Edit/Remove 버튼으로 프록시 서버 IP 등록/편집/삭제가 가능합니다.
+   (등록한 설정은 파일로 저장되며 종료후 재시작시에도 설정을 불러옵니다.)
+
+*사용법
+① Proxy Sever Setting 메뉴에서 Add 버튼을 누릅니다.
+② 프록시 서버 정보를 입력 후 ADD 버튼을 누릅니다. (이때 NAME은 반드시 영어로 입력해야 합니다.)
+
+③ 추가가 완료되면 Enabled 체크박스를 클릭하세요.
+④ 'Proxy is enabled' 알림창이 뜨면 Proxy 설정이 활성화 되었습니다. 체크 박스를 해제하면 Proxy 설정이 비활성화 됩니다.
 
 ####2) Check Current IP 기능
+* 설명
+   *Target Site List에서 Add/Edit/Remove 버튼으로 진단 대상 사이트 URL/ID/PW 정보를 입력할 수 있습니다.
+   *진단 대상 사이트 및 계정이 여러개일때 ID/PW를 저장해서 손쉽게 사이트를 불러오고 저장/복사를 위한 기능입니다.
+   (등록한 설정은 파일로 저장되며 종료후 재시작시에도 설정을 불러옵니다.)
+
+*사용법
+① Target Site List 메뉴에서 Add 버튼을 누릅니다.
+② 사이트 URL/권한 유형/ID/PW/Comment를 입력 후 ADD로 추가합니다. (Comment는 반드시 영어로 입력해야 합니다.)
+
+③ 등록 후에 Open URL 버튼을 클릭하면 사이트를 열 수 있습니다.
+
+④ ID Copy/PW Copy 버튼을 클릭후 로그인 폼에 붙여넣기 하면 손쉽게 클릭만으로 붙여넣기가 가능합니다.
 
 ####3) Target Site List 기능 추가
+*설명
+   *현재 진단하는 PC의 공인 IP/사설 IP를 확인해줍니다.
+
+*사용법
+① Check Current IP 메뉴에서 'Check IP' 버튼을 누릅니다.
+
+② 공인 IP / 사설 IP 확인이 가능합니다.
 
 
 ##5. TroubleShooting
@@ -71,7 +90,6 @@
   원인 :  윈도우 사용자 이름이 한글인 경우 경우에 발생<br>
   (ex. c:\users\홍길동\Desktop\jython-standalone.jar)
   해결 : jython-standalone 파일을 영문 경로에 저장후 등록
-
 
 2. 아이템 추가시 Name을 한글로 적는 경우 Unicode Error 발생
    원인 > Name을 한글로 입력하는 경우 설정파일 저장 및 불러오기 불가
