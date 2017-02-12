@@ -6,9 +6,6 @@
 - Window 10에서 Cooxie 대용으로 사용이 가능합니다.
 <img src = http://cfile10.uf.tistory.com/image/2170343D58A013DE090029 width=100%></img>
 
-
-
-
 ##2. Patch Note
 
 ### ver 1.22
@@ -33,26 +30,26 @@
 
 ##3. Installation
 1. Git Repository 에서 jython-standalone-2.7.0.jar 파일을 다운 받습니다.
-![Alt text](http://cfile30.uf.tistory.com/image/221AFC3758A01AC80D78EA)
+<img src = http://cfile30.uf.tistory.com/image/221AFC3758A01AC80D78EA width=100%></img>
 
 2. Burp 실행 → 상단 메뉴 [Extender] → [Options]를 누릅니다.
-![Alt text](http://cfile6.uf.tistory.com/image/215015455731D2D81607D8)
+<img src = http://cfile6.uf.tistory.com/image/215015455731D2D81607D8 width=100%></img>
 
 3. [Python Environment]에서 앞에서 다운받은 jython standalone jar 파일을 찾아서 등록합니다.
 (jython 기반이라 한글 경로 인식시 에러가 납니다. 꼭 영문만 포함된 경로에 jar 파일을 저장후 불러와주세요.)
-![Alt text](http://cfile1.uf.tistory.com/image/2659DC395731D37F0E3FDB)
+<img src = http://cfile1.uf.tistory.com/image/2659DC395731D37F0E3FDB width=100%></img>
 
 4. Burp의 [Extender]-[Extensions]-[Burp Extensions]에서 Add 버튼을 누릅니다.
-![Alt text](http://cfile27.uf.tistory.com/image/233CC9395731D46C2F3E7E)
+<img src = http://cfile27.uf.tistory.com/image/233CC9395731D46C2F3E7E width=100%></img>
 
 5. [Extensions type] > Python 선택, [Extension file(.py)] > BurpHelper 파이썬 파일을 추가시켜 준 후 Next를 클릭
-![Alt text](http://cfile2.uf.tistory.com/image/251BC43C5731D4F63440E8)
+<img src = http://cfile2.uf.tistory.com/image/251BC43C5731D4F63440E8 width=100%></img>
 
 6. 정상적으로 플러그인이 로딩되는 경우 아래 그림과 같은 Output 탭에 메시지를 확인할 수 있습니다. 로드상 오류가 있으면 Errors 탭에 에러가 표기됩니다.
-![Alt text](http://cfile29.uf.tistory.com/image/260AB73758A017EE356C33)
+<img src = http://cfile29.uf.tistory.com/image/260AB73758A017EE356C33 width=100%></img>
 
 7. 정상적으로 등록이 완료가 되면 상단 메뉴에 BurpHelper 플러그인 메뉴가 등록됩니다.
-![Alt text](http://cfile6.uf.tistory.com/image/272964345731D66C297343)
+<img src = http://cfile6.uf.tistory.com/image/272964345731D66C297343 width=100%></img>
 
 ##4. Usage
 ####1) Windows Internet Explorer 프록시 On/Off 기능
