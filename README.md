@@ -1,16 +1,15 @@
-# BurpHelper 1.22
+# BurpHelper
 
-1. Intro
+##1. Intro
 -------------
-자이썬을 기반으로 한 Burp Suite 플러그인입니다. 
+Jython을 기반으로 한 Burp Suite 플러그인입니다. 
 개발 동기는 윈도우 10에서 Burp Suite 사용시 Cooxie 프로그램으로 IE에서 프록시 설정이 적용이 되지 않는 경우가 많아 Burp Suite 플러그인으로 개발하였습니다.
-jython을 이용한 Burp Suite 플러그인 개발 방법에 대해서는 별도의 포스트에서 다룰 예정입니다.
-현재는 IE Proxy 설정 기능만 포함되어 있습니다.웹 모의해킹 진단시 도움이 될만한 기능들로 조금씩 추가로 개발할 예정입니다.
 
-2. Version
+##2. Patch Note
 -------------
+
+### ver 1.0
 * Internet Explorer 프록시 설정 기능 제공
-- 해당 플러그인은 Burp Suite Free 버전 및 Pro 버전 모두 사용가능합니다.
 - BurpHelper 플러그인의 IEProxy Settings를 통해 프록시로 사용할 아이피를 등록/변경/삭제가 가능합니다.
 - Enabled 체크박스를 통해 프록시 설정을 on/off 할 수 있습니다.
 - 프록시 설정을 저장하기 위해 C:\BurpHelper\burphelpertmp.txt 파일이 생성됩니다. 
