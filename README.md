@@ -54,8 +54,8 @@
 
 ##4. TroubleShooting
 1.  Jython PY-String Non-Byte Error
-  원인 :  윈도우 사용자 이름이 한글인 경우 경우에 발생 
-   (ex. c:\users\홍길동\Desktop\jython-standalone.jar)
+  원인 :  윈도우 사용자 이름이 한글인 경우 경우에 발생
+  (ex. c:\users\홍길동\Desktop\jython-standalone.jar)
   해결 : jython-standalone 파일을 영문 경로에 저장후 등록
 
 
