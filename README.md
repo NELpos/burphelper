@@ -82,7 +82,7 @@
 4. ID Copy/PW Copy 버튼을 클릭후 로그인 폼에 붙여넣기 하면 손쉽게 클릭만으로 붙여넣기가 가능합니다.
 <img src = http://cfile2.uf.tistory.com/image/274F364B58A034B82591BE width=100%></img>
 
-####3) Target Site List 기능 추가
+####3) Target Site List 기능
 ##### 설명
  * 현재 진단하는 PC의 공인 IP/사설 IP를 확인해줍니다.
  
@@ -92,7 +92,7 @@
 2. 공인 IP / 사설 IP 확인이 가능합니다.
 <img src = http://cfile5.uf.tistory.com/image/2567804E58A03574186CC9 width=100%></img><br>
 
-##5. TroubleShooting
+##5. Trouble Shooting
 1. Jython PY-String Non-Byte Error
   원인 :  윈도우 사용자 이름이 한글인 경우 경우에 발생<br>
   (ex. c:\users\홍길동\Desktop\jython-standalone.jar)
