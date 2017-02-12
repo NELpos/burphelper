@@ -67,7 +67,7 @@
 4. 'Proxy is enabled' 알림창이 뜨면 Proxy 설정이 활성화 되었습니다. 체크 박스를 해제하면 Proxy 설정이 비활성화 됩니다.
 <img src = http://cfile26.uf.tistory.com/image/2728084B58A030F10AF5AE width=100%></img>
 
-####2) Check Current IP 기능
+####2) Target Site List 기능
 ##### 설명
  * Target Site List에서 Add/Edit/Remove 버튼으로 진단 대상 사이트 URL/ID/PW 정보를 입력할 수 있습니다.
  * 진단 대상 사이트 및 계정이 여러개일때 ID/PW를 저장해서 손쉽게 사이트를 불러오고 저장/복사를 위한 기능입니다.
@@ -82,7 +82,7 @@
 4. ID Copy/PW Copy 버튼을 클릭후 로그인 폼에 붙여넣기 하면 손쉽게 클릭만으로 붙여넣기가 가능합니다.
 <img src = http://cfile2.uf.tistory.com/image/274F364B58A034B82591BE width=100%></img>
 
-####3) Target Site List 기능
+####3) Check Current IP 기능
 ##### 설명
  * 현재 진단하는 PC의 공인 IP/사설 IP를 확인해줍니다.
  
