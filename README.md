@@ -4,8 +4,8 @@
 - Jython을 기반으로 한 Burp Suite 플러그인입니다. 
 - 윈도우 환경에서 사용 가능합니다.
 - Window 10에서 Cooxie 대용으로 사용이 가능합니다.
-<img src = http://cfile10.uf.tistory.com/image/2170343D58A013DE090029 width=800></img>
-![Alt text](http://cfile10.uf.tistory.com/image/2170343D58A013DE090029)
+<img src = http://cfile10.uf.tistory.com/image/2170343D58A013DE090029 width=100%></img>
+
 
 
 
