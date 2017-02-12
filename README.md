@@ -51,3 +51,15 @@
 
 7. 정상적으로 등록이 완료가 되면 상단 메뉴에 BurpHelper 플러그인 메뉴가 등록됩니다.
 ![Alt text](http://cfile6.uf.tistory.com/image/272964345731D66C297343)
+
+##4. TroubleShooting
+1.  Jython PY-String Non-Byte Error
+   원인 > 윈도우 사용자 이름이 한글인 경우 경우에 발생 (ex. c:\users\홍길동\Desktop\jython-standalone.jar)
+   해결 > jython-standalone 파일을 영문 경로에 저장후 등록
+
+2. 아이템 추가시 Name을 한글로 적는 경우 Unicode Error 발생
+   원인 > Name을 한글로 입력하는 경우 설정파일 저장 및 불러오기 불가
+   해결 > Name을 영어로 입력
+
+##5. Special Thanks
+thanks to darkhi
