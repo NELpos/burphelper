@@ -85,7 +85,7 @@
 
 ####3) Target Site List 기능 추가
 #####설명
-*현재 진단하는 PC의 공인 IP/사설 IP를 확인해줍니다.
+* 현재 진단하는 PC의 공인 IP/사설 IP를 확인해줍니다.
 #####사용법
 1. Check Current IP 메뉴에서 'Check IP' 버튼을 누릅니다.
 <img src = http://cfile4.uf.tistory.com/image/2601614958A0352A331BE1 width=100%></img>
